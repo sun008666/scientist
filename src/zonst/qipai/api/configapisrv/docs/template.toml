@@ -1,0 +1,118 @@
+listen = ":9901"
+
+game_client_api = "http://localhost:5000"
+
+cdnSecretID = "AKIDy8RzbCdvHe6MaMpzlT2znZnaNAwuQu15"
+cdnSecretKEY = "OffebWLtfWBqLk8MMLAzlUUPQCpJkFn3"
+
+gameConfigaddr = "127.0.0.1:6379"
+
+gameVersionPath = "/data/gamepackages/"
+
+config_update_log_api = "http://localhost:9098"
+
+androidPackageUrl = "http://localhost"
+
+iosPackageUrl = "itms-services://?action=download-manifest&url=http://localhost"
+
+packageIconUrl = "http://localhost"
+
+bucketName = "download2"
+
+appID = "1251317493"
+
+secretID = "AKIDhHfrqeXguvCQXXGGzhIiwytc8SZV4l5E"
+
+secretKey = "7CAxYx99zd4MYYMyOdfV8aqDTbWEk3B6"
+
+environment_flag = "tencent-cos"
+
+cdnapi_srv = "http://localhost"
+
+imgPath = "/data/img4417com/game/"
+user_info = "http://userinfoapi.xq5.com"
+img_url_api = "http://localhost"
+html_url_api = "http://localhost"
+config_domain_name = "http://localhost"
+cdn_api = "http://loclhost"
+static_url = "http://localhost"
+qpindex_url = "http://localhost"
+licence_num1 = "赣ICP备15001426号-12"
+licence_num2 = "赣公网安备36010802000031号"
+page_index = "中至集团 版权所有"
+#累计签到，道具系统，任务系统，房卡套餐，钻石套餐
+sign_award_api = 'http://123.206.215.185:9031'
+shop_config_api = 'http://123.206.215.185:9960'
+task_api = 'http://123.206.215.185:8947'
+room_card_pay_api = 'http://123.206.215.185:9901'
+diamonds_pay_api = 'http://123.206.215.185:9998'
+
+[dbservers]
+    [dbservers.qipaidb]
+    host = "localhost"
+    port = 5432
+    dbname = "qipaidb"
+    user = "postgres"
+    password = "123456"
+    statement_timeout = 500
+[dbservers.logdb]
+    host = "localhost"
+    port = 5432
+    dbname = "logdb"
+    user = "postgres"
+    password = "123456"
+[dbservers.usercertforcedb]
+    host = "localhost"
+    port = 5432
+    dbname = "qipaidb"
+    user = "postgres"
+    password = "123456"
+    statement_timeout = 500
+[dbservers.clubdb]
+    host = "127.0.0.1"
+    port = 5432
+    dbname = "clubdb"
+    user = "postgres"
+    password = "123456"
+[dbservers.clubdborm]
+    host = "127.0.0.1"
+    port = 5432
+    dbname = "clubdb"
+    user = "postgres"
+    password = "123456"
+[dbservers.qipaidborm]
+    host = "127.0.0.1"
+    port = 5432
+    dbname = "userdb"
+    user = "postgres"
+    password = "123456"
+[dbservers.taskdb]
+    host = "127.0.0.1"
+    port = 5432
+    dbname = "taskdb"
+    user = "postgres"
+    password = "123456"
+[dbservers.configdb]
+    host = "127.0.0.1"
+    port = 5432
+    dbname = "configdb"
+    user = "postgres"
+    password = "123456"
+
+[redisservers]
+[redisservers.whiteListCache]
+addr = "127.0.0.1:6379"
+password = ""
+db = 0
+[redisservers.token]
+addr = "127.0.0.1:6379"
+password = ""
+db = 0
+[redisservers.userphone]
+addr = "127.0.0.1:6379"
+password = ""
+db = 0
+[redisservers.usercertforce]
+addr = "127.0.0.1:6379"
+password = ""
+db = 0

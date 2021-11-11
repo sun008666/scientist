@@ -1,0 +1,9 @@
+listen = ":9010"
+
+[dbservers]
+    [dbservers.configdb]
+    host = "127.0.0.1"
+    port = 5432
+    dbname = "qipaidb"
+    user = "liujunhui"
+    password = ""
